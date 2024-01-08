@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        #second-h2{
+            color: blue;
+        }
+        .fc-red{
+            color: red;
+        }
+        a:link{
+            color: teal;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:focus{
+            background: royalblue;
+        }
+        table td:nth-child(odd){
+            color: red;
+            border: 3px solid royalblue;
+        }
+
+        li:not(:first-child){
+            background-color: pink;
+        }
+        li:first-child{
+            background-color: cornflowerblue;
+            opacity: 0.5;
+
+        }
+
+    </style>
+    <!--    <link rel="stylesheet" href="reset.css">-->
+</head>
+<body >
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</ul>
+<table>
+    <tr><td>hello</td><td>hello</td><td>hello</td></tr>
+    <tr><td>hello</td><td>hello</td><td>hello</td></tr>
+    <tr><td>hello</td><td>hello</td><td>hello</td></tr>
+</table>
+<div>
+    <a href="https://www.naver.com">naver로 이동하기</a>
+    <h1 class="fc-red">Hello</h1>
+    <h2 id="second-h2">Hello</h2>
+    <p>Hello</p>
+</div>
+</body>
+</html>
